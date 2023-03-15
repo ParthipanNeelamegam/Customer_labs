@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.newSchema {
+  color: #0066ff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 7em;
+  background: content-box;
+  min-width: 50%;
+}
+.newSchema:hover{
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.modalTitleBackground{
+  background-color: #00f8ff;
+}
+.footerBackground{
+  background-color: #e8e8e8;
+}
+.dropDown{
+  background-color: #fff;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 7em;
+  background: content-box;
+  color: black;
+  min-width: 50%;
+}
+.blueBox{
+  border: 1px solid blue;
+}
+.blueBelow{
+  margin: 15px
+}
+.segment{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 7em;
+  background: content-box;
+  color: black;
+  min-width: 50%;
+
+}
+.formClass{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 7em;
+  background: content-box;
+  color: black;
+  min-width: 50%;
+}
